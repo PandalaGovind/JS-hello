@@ -1,8 +1,10 @@
-buttons.forEach(function (button) {
+document.addEventListener("DOMContentLoaded", function () {
+  let buttons = document.querySelectorAll('.button');
+  buttons.forEach(function (button) {
   console.log(button);
   button.addEventlistener('click', function (e) {
     console.log(e);
-    console.log(e.target);
+    console.log(e.target.id);
     if(e.target.id=='grey'){
       document.body.style.backgroundColor=e.target.id;
     }
@@ -16,4 +18,5 @@ buttons.forEach(function (button) {
       document.body.style.backgroundColor=e.target.id;
     }
   });
+});
 });
