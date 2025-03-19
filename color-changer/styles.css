@@ -2,9 +2,6 @@ html {
   margin: 0;
 }
 
-span {
-  display: block;
-}
 .canvas {
   margin: 100px auto 100px;
   width: 80%;
