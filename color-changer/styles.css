@@ -1,30 +1,15 @@
-html {
-  margin: 0;
-}
-
-.canvas {
-  margin: 100px auto 100px;
-  width: 80%;
-  text-align: center;
-}
-
 .button {
-  width: 100px;
-  height: 100px;
-  border: solid black 2px;
-  display: inline-block;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid white;
+    cursor: pointer;
 }
 
-#grey {
-  background: grey;
-}
-
-#white {
-  background: white;
-}
-#blue {
-  background: blue;
-}
-#yellow {
-  background: yellow;
-}
+#grey { background-color: grey; }
+#white { background-color: white; color: black; }
+#blue { background-color: blue; }
+#yellow { background-color: yellow; color: black; }
